@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="org.generic.TestListener"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.testscript.mentor.ConsumeOpenCourseByPublicUserAndCheckCourseStatAsMentor"/>
+      <class name="org.testscript.mentor.CheckAvailabilityOfCourseForInvitedMember"/>
+      <class name="org.testscript.mentor.UpdateBatchAsInvitedMentor"/>
+      <class name="org.testscript.mentor.EnrollToCourseInOpenBatch"/>
+      <class name="org.testscript.mentor.CreateIOBatchAndSearchTheCourseAsInvitedMember"/>
+      <class name="org.testscript.mentor.NavigateToWorkspaceAndSelectPreviousBatches"/>
+      <class name="org.testscript.mentor.VerifyCreatedInviteOnlybatch"/>
+      <class name="org.testscript.mentor.ToVerifyUpdatingOfOngoingBatchForSearchedCourse"/>
+      <class name="org.testscript.mentor.NavigateToMyActivityInDropdown"/>
+      <class name="org.testscript.mentor.CheckSuborgMentorInvitingOrgMember"/>
+      <class name="org.testscript.mentor.SearchCourseCreateInviteOnlyBatch"/>
+      <class name="org.testscript.mentor.ToVerifyUpdatingOfUpcomingBatchForSearchedCourse"/>
+      <class name="org.testscript.mentor.CheckCourseStatAsMentor"/>
+      <class name="org.testscript.mentor.OpenBatchCreation"/>
+      <class name="org.testscript.mentor.CreateIOBatchWithStartDateAsFutureDate"/>
+      <class name="org.testscript.mentor.CheckForAuthenticUserInMentor"/>
+      <class name="org.testscript.mentor.VerifyMembersAutoInvitatedInInviteOnlyBatch"/>
+      <class name="org.testscript.mentor.MentorCreateCourseAndCreateOpenBatchForIt"/>
+      <class name="org.testscript.mentor.CreateIOBatchWithStartDateAsCurrentDate"/>
+      <class name="org.testscript.mentor.CreateIOBatchByAddingMembersAndMentorsFromRootAndSubOrg"/>
+      <class name="org.testscript.mentor.ConsumeCourseByInvitedMember"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

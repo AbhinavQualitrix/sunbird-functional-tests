@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Smoke-Suite]]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.generic.TestListener"/>
+  </listeners>
+  <test name="Smoke-Test(failed)(failed)">
+    <classes>
+      <class name="org.testscripts.SearchCourseCreateInviteOnlyBatch">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscripts.SearchCourseCreateInviteOnlyBatch -->
+      <class name="org.testscripts.UploadContentWEBM">
+        <methods>
+          <include name="uploadContentWEBM"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscripts.UploadContentWEBM -->
+      <class name="org.testscripts.ConsumeOpenCourseByPublicUser">
+        <methods>
+          <include name="consumeOpenCourseByPublicUser"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscripts.ConsumeOpenCourseByPublicUser -->
+      <class name="org.testscripts.CreatorResourceAndVerify">
+        <methods>
+          <include name="creatorResourceAndVerify"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscripts.CreatorResourceAndVerify -->
+      <class name="org.testscripts.UploadContentMP4">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscripts.UploadContentMP4 -->
+      <class name="org.testscripts.CreatorQuestionAndVerify">
+        <methods>
+          <include name="creatorQuestionAndVerify"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscripts.CreatorQuestionAndVerify -->
+      <class name="org.testscripts.UploadContentYOUTUBE">
+        <methods>
+          <include name="uploadContentYOUTUBE"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscripts.UploadContentYOUTUBE -->
+      <class name="org.testscripts.UploadContentHTML">
+        <methods>
+          <include name="uploadContentHTML"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscripts.UploadContentHTML -->
+    </classes>
+  </test> <!-- Smoke-Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Smoke-Suite]] -->

@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.generic.TestListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="org.testscript.mentor.VerifyCreatedInviteOnlybatch">
+        <methods>
+          <include name="verifyCreatedInviteOnlybatch"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.VerifyCreatedInviteOnlybatch -->
+      <class name="org.testscript.mentor.CheckCourseStatAsMentor">
+        <methods>
+          <include name="checkCourseStatAsMentor"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.CheckCourseStatAsMentor -->
+      <class name="org.testscript.reviewer.LatestContentOnTopOfUpForReviewAndSearch">
+        <methods>
+          <include name="latestContentIsOnTopUpForReviewAndSearch"/>
+        </methods>
+      </class> <!-- org.testscript.reviewer.LatestContentOnTopOfUpForReviewAndSearch -->
+      <class name="org.testscript.creator.BookCreation">
+        <methods>
+          <include name="bookCreation"/>
+        </methods>
+      </class> <!-- org.testscript.creator.BookCreation -->
+      <class name="org.testscript.creator.CreateBookAndVerify">
+        <methods>
+          <include name="createBookAndVerify"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CreateBookAndVerify -->
+      <class name="org.testscript.creator.UploadContentTypePdfAndVerify">
+        <methods>
+          <include name="uploadContentTypePdfAndVerify"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadContentTypePdfAndVerify -->
+      <class name="org.testscript.creator.SeeTheContentBasedOnAppliedFilter">
+        <methods>
+          <include name="seeTheContentBasedOnAppliedFilter"/>
+        </methods>
+      </class> <!-- org.testscript.creator.SeeTheContentBasedOnAppliedFilter -->
+      <class name="org.testscript.publicuser.SearchCourse">
+        <methods>
+          <include name="searchCourse"/>
+        </methods>
+      </class> <!-- org.testscript.publicuser.SearchCourse -->
+      <class name="org.testscript.creator.VerifyFeaturesOfProfileIconAndWorkspace">
+        <methods>
+          <include name="verifyProfileIcon4Features_workspaceFeatures"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifyFeaturesOfProfileIconAndWorkspace -->
+      <class name="org.testscript.mentor.NavigateToWorkspaceAndSelectPreviousBatches">
+        <methods>
+          <include name="navigateToWorkspaceAndSelectPreviousBatches"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.NavigateToWorkspaceAndSelectPreviousBatches -->
+      <class name="org.testscript.creator.CreateResourceByAddingAudio">
+        <methods>
+          <include name="resource_VerifyAudioUpload"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CreateResourceByAddingAudio -->
+      <class name="org.testscript.creator.SendTheCourseForReview">
+        <methods>
+          <include name="sendTheCourseForReview"/>
+        </methods>
+      </class> <!-- org.testscript.creator.SendTheCourseForReview -->
+      <class name="org.testscript.creator.CollectionCreation">
+        <methods>
+          <include name="collectionCreation"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CollectionCreation -->
+      <class name="org.testscript.reviewer.VerifyReviewerRequestChangesTheBook">
+        <methods>
+          <include name="verifyReviewerRequestChangesTheBook"/>
+        </methods>
+      </class> <!-- org.testscript.reviewer.VerifyReviewerRequestChangesTheBook -->
+      <class name="org.testscript.creator.DeletePublishedBookFromAllMyContent">
+        <methods>
+          <include name="deletePublishedBookFromAllMyContent"/>
+        </methods>
+      </class> <!-- org.testscript.creator.DeletePublishedBookFromAllMyContent -->
+      <class name="org.testscript.creator.VerifySortByInAllMyContentForCreator">
+        <methods>
+          <include name="verifyAllMyContentSortByForCreator"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifySortByInAllMyContentForCreator -->
+      <class name="org.testscript.announcementsender.VerifyFilledDataWhileCreatingAnnouncement">
+        <methods>
+          <include name="verifyFilledDataWhileCreatingAnnouncement"/>
+        </methods>
+      </class> <!-- org.testscript.announcementsender.VerifyFilledDataWhileCreatingAnnouncement -->
+      <class name="org.testscript.creator.VerifyThatTopicsAreSelectedOnMetaDataPage">
+        <methods>
+          <include name="verifyThatTopicsAreSelectedOnMetaDataPage"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifyThatTopicsAreSelectedOnMetaDataPage -->
+      <class name="org.testscript.mentor.CreateIOBatchWithStartDateAsFutureDate">
+        <methods>
+          <include name="createIOBatchWithStartDateAsFutureDate"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.CreateIOBatchWithStartDateAsFutureDate -->
+      <class name="org.testscript.creator.VerifyEditDetailsPopupAndTopicTree">
+        <methods>
+          <include name="verifyWorkspaceEditailsPage_TopicTree"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifyEditDetailsPopupAndTopicTree -->
+      <class name="org.testscript.announcementsender.CreateAnnouncementWithAttachment">
+        <methods>
+          <include name="createAnnouncementWithAttachment"/>
+        </methods>
+      </class> <!-- org.testscript.announcementsender.CreateAnnouncementWithAttachment -->
+      <class name="org.testscript.creator.VerifySaveContentInAllUploads">
+        <methods>
+          <include name="verifySaveContentInAllUploads"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifySaveContentInAllUploads -->
+      <class name="org.testscript.creator.UnlinkDailcode">
+        <methods>
+          <include name="unlinkDailcode"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UnlinkDailcode -->
+      <class name="org.testscript.mentor.NavigateToMyActivityInDropdown">
+        <methods>
+          <include name="navigateToMyActivityInDropdown"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.NavigateToMyActivityInDropdown -->
+      <class name="org.testscript.creator.VerifyUserNaviagationToContentEditor">
+        <methods>
+          <include name="verifyUserNavigateToContentEditorPage"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifyUserNaviagationToContentEditor -->
+      <class name="org.testscript.announcementsender.OpenAnnouncement">
+        <methods>
+          <include name="openAnnouncement"/>
+        </methods>
+      </class> <!-- org.testscript.announcementsender.OpenAnnouncement -->
+      <class name="org.testscript.creator.LimitedSharingAndDeletingLessonPlan">
+        <methods>
+          <include name="limitedSharingAndDeletingLessonPlan"/>
+        </methods>
+      </class> <!-- org.testscript.creator.LimitedSharingAndDeletingLessonPlan -->
+      <class name="org.testscript.mentor.MentorCreateCourseAndCreateOpenBatchForIt">
+        <methods>
+          <include name="mentorCreateCourseAndCreateOpenBatchForIt"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.MentorCreateCourseAndCreateOpenBatchForIt -->
+      <class name="org.testscript.creator.VerifyPublishedContentInPublishedBucket">
+        <methods>
+          <include name="verifyPublishedContentInPublishedBucket"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifyPublishedContentInPublishedBucket -->
+      <class name="org.testscript.creator.VerifyLimitedSharing">
+        <methods>
+          <include name="verifyLimitedSharing"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifyLimitedSharing -->
+      <class name="org.testscript.publicuser.VerifyNavigateToGetPage">
+        <methods>
+          <include name="verify_NavigateToGetPage"/>
+        </methods>
+      </class> <!-- org.testscript.publicuser.VerifyNavigateToGetPage -->
+      <class name="org.testscript.admin.VerifyElementsInAdminDashboard">
+        <methods>
+          <include name="verifyElementsInAdminDashboard"/>
+        </methods>
+      </class> <!-- org.testscript.admin.VerifyElementsInAdminDashboard -->
+      <class name="org.testscript.creator.UploadEpubContent">
+        <methods>
+          <include name="uploadEpubContent"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadEpubContent -->
+      <class name="org.testscript.creator.CreatorResourceAndVerify">
+        <methods>
+          <include name="creatorResourceAndVerify"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CreatorResourceAndVerify -->
+      <class name="org.testscript.mentor.CheckAvailabilityOfCourseForInvitedMember">
+        <methods>
+          <include name="checkAvailabilityOfCourseForInvitedMember"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.CheckAvailabilityOfCourseForInvitedMember -->
+      <class name="org.testscript.creator.VerifyThatTopicsAreDisplayedOnMetaDataForm">
+        <methods>
+          <include name="verifyThatTopicsAreDisplayedOnMetaDataForm"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifyThatTopicsAreDisplayedOnMetaDataForm -->
+      <class name="org.testscript.creator.CreateLessonPlanAndVerify">
+        <methods>
+          <include name="createLessonAndVerify"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CreateLessonPlanAndVerify -->
+      <class name="org.testscript.mentor.ConsumeCourseByInvitedMember">
+        <methods>
+          <include name="consumeCourseByInvitedMember"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.ConsumeCourseByInvitedMember -->
+      <class name="org.testscript.creator.UploadContentTypeMp4AndVerify">
+        <methods>
+          <include name="uploadContentTypeMp4AndVerify"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadContentTypeMp4AndVerify -->
+      <class name="org.testscript.admin.NavigateToMyActivity">
+        <methods>
+          <include name="navigateToMyActivity"/>
+        </methods>
+      </class> <!-- org.testscript.admin.NavigateToMyActivity -->
+      <class name="org.testscript.publicuser.ProfileInfoUpdate">
+        <methods>
+          <include name="profileInfoUpdate"/>
+        </methods>
+      </class> <!-- org.testscript.publicuser.ProfileInfoUpdate -->
+      <class name="org.testscript.publicuser.SearchInLibrary">
+        <methods>
+          <include name="searchInLibrary"/>
+        </methods>
+      </class> <!-- org.testscript.publicuser.SearchInLibrary -->
+      <class name="org.testscript.creator.CourseCreation">
+        <methods>
+          <include name="courseCreation"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CourseCreation -->
+      <class name="org.testscript.announcementsender.VerifyAnnouncementPageContent">
+        <methods>
+          <include name="VerifyAnnouncementDetails"/>
+          <include name="VerifyAnnouncementCreationFields"/>
+          <include name="verifyAnnouncementMessage"/>
+        </methods>
+      </class> <!-- org.testscript.announcementsender.VerifyAnnouncementPageContent -->
+      <class name="org.testscript.announcementsender.DeleteAnnouncement">
+        <methods>
+          <include name="deleteAnnouncement"/>
+        </methods>
+      </class> <!-- org.testscript.announcementsender.DeleteAnnouncement -->
+      <class name="org.testscript.reviewer.SearchTheContentInUpForReview">
+        <methods>
+          <include name="searchTheContentInUpForReview"/>
+        </methods>
+      </class> <!-- org.testscript.reviewer.SearchTheContentInUpForReview -->
+      <class name="org.testscript.announcementsender.VerifyCreateAnnouncementPopupAndFeatures">
+        <methods>
+          <include name="verifyCreateAnnouncementPopupAndFeatures"/>
+        </methods>
+      </class> <!-- org.testscript.announcementsender.VerifyCreateAnnouncementPopupAndFeatures -->
+      <class name="org.testscript.mentor.CheckSuborgMentorInvitingOrgMember">
+        <methods>
+          <include name="suborgMentorInvitingOrgMember"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.CheckSuborgMentorInvitingOrgMember -->
+      <class name="org.testscript.reviewer.RejectTheUploadedContent">
+        <methods>
+          <include name="rejectTheUploadedContent"/>
+        </methods>
+      </class> <!-- org.testscript.reviewer.RejectTheUploadedContent -->
+      <class name="org.testscript.reviewer.VerifyPublishButtonAndPublishCourse">
+        <methods>
+          <include name="verifyPublishButtonAndPublishCourse"/>
+        </methods>
+      </class> <!-- org.testscript.reviewer.VerifyPublishButtonAndPublishCourse -->
+      <class name="org.testscript.creator.VerifySortOption">
+        <methods>
+          <include name="verifySortOption"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifySortOption -->
+      <class name="org.testscript.creator.CreateResourceWithContentsPluginsAndVerifyContentEditor">
+        <methods>
+          <include name="createResourceWithContentsPlugins_VerifyContentEditor"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CreateResourceWithContentsPluginsAndVerifyContentEditor -->
+      <class name="org.testscript.creator.VerifyTheClosingOfContentEditor">
+        <methods>
+          <include name="contentCreator_CloseEditor"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifyTheClosingOfContentEditor -->
+      <class name="org.testscript.creator.AllQuestionSetPlugins">
+        <methods>
+          <include name="questionSetPlugin"/>
+        </methods>
+      </class> <!-- org.testscript.creator.AllQuestionSetPlugins -->
+      <class name="org.testscript.reviewer.SearchContentWithFiltersAsReviewer">
+        <methods>
+          <include name="searchContentWithFiltersAsReviewer"/>
+        </methods>
+      </class> <!-- org.testscript.reviewer.SearchContentWithFiltersAsReviewer -->
+      <class name="org.testscript.publicuser.SearchCourseUsingFilter">
+        <methods>
+          <include name="searchCourseUsingFilter"/>
+        </methods>
+      </class> <!-- org.testscript.publicuser.SearchCourseUsingFilter -->
+      <class name="org.testscript.reviewer.SortTheResultInUpForReview">
+        <methods>
+          <include name="workspace_upForReviewSortBy"/>
+        </methods>
+      </class> <!-- org.testscript.reviewer.SortTheResultInUpForReview -->
+      <class name="org.testscript.publicuser.VerifyHomePage">
+        <methods>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- org.testscript.publicuser.VerifyHomePage -->
+      <class name="org.testscript.creator.VerifyCreatedInviteOnlybatch">
+        <methods>
+          <include name="verifyCreatedInviteOnlybatch"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifyCreatedInviteOnlybatch -->
+      <class name="org.testscript.mentor.OpenBatchCreation">
+        <methods>
+          <include name="openBatchCreation"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.OpenBatchCreation -->
+      <class name="org.testscript.creator.CreateCourseAndVerify">
+        <methods>
+          <include name="createCourseAndVerify"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CreateCourseAndVerify -->
+      <class name="org.testscript.creator.SearchLessonPlanAndCopy">
+        <methods>
+          <include name="searchLessonPlanAndCopy"/>
+        </methods>
+      </class> <!-- org.testscript.creator.SearchLessonPlanAndCopy -->
+      <class name="org.testscript.mentor.ToVerifyUpdatingOfOngoingBatchForSearchedCourse">
+        <methods>
+          <include name="toVerifyUpdatingOfOngoingBatchForSearchedCourse"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.ToVerifyUpdatingOfOngoingBatchForSearchedCourse -->
+      <class name="org.testscript.creator.CreateLessonPlanWith3Resources">
+        <methods>
+          <include name="createLessonPlanWith3Resources"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CreateLessonPlanWith3Resources -->
+      <class name="org.testscript.creator.VerifyTheUploadedContent">
+        <methods>
+          <include name="verifyTheUploadedContent"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifyTheUploadedContent -->
+      <class name="org.testscript.announcementsender.VerifyCreateAnnouncementFeature">
+        <methods>
+          <include name="verifyCreateAnnouncementFeature"/>
+        </methods>
+      </class> <!-- org.testscript.announcementsender.VerifyCreateAnnouncementFeature -->
+      <class name="org.testscript.announcementsender.ResendAnnouncement">
+        <methods>
+          <include name="resendAnnouncement"/>
+        </methods>
+      </class> <!-- org.testscript.announcementsender.ResendAnnouncement -->
+      <class name="org.testscript.admin.AdminCreationAndDownloadCsv">
+        <methods>
+          <include name="adminCreationAndDownloadCsv"/>
+        </methods>
+      </class> <!-- org.testscript.admin.AdminCreationAndDownloadCsv -->
+      <class name="org.testscript.creator.BookCreateOptionValidation">
+        <methods>
+          <include name="bookCreateOptionValidation"/>
+        </methods>
+      </class> <!-- org.testscript.creator.BookCreateOptionValidation -->
+      <class name="org.testscript.mentor.EnrollToCourseInOpenBatch">
+        <methods>
+          <include name="enrollToCourseInOpenBatch"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.EnrollToCourseInOpenBatch -->
+      <class name="org.testscript.mentor.CreateIOBatchWithStartDateAsCurrentDate">
+        <methods>
+          <include name="createIOBatchWithStartDateAsCurrentDate"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.CreateIOBatchWithStartDateAsCurrentDate -->
+      <class name="org.testscript.creator.DialCodeLink">
+        <methods>
+          <include name="dialCodeLink"/>
+        </methods>
+      </class> <!-- org.testscript.creator.DialCodeLink -->
+      <class name="org.testscript.creator.VerifyEditMetadataPageForCollection">
+        <methods>
+          <include name="workspaceCollection_verifyEditDetailsPage"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifyEditMetadataPageForCollection -->
+      <class name="org.testscript.creator.UploadYoutubeFile">
+        <methods>
+          <include name="library_copyContent"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadYoutubeFile -->
+      <class name="org.testscript.creator.DeleteContentByStatusInAllMyContent">
+        <methods>
+          <include name="deleteByStatusInAllMyContent"/>
+        </methods>
+      </class> <!-- org.testscript.creator.DeleteContentByStatusInAllMyContent -->
+      <class name="org.testscript.announcementsender.CreateVerifyAndDeleteAnnouncement">
+        <methods>
+          <include name="createVerifyAndDeleteAnnouncement"/>
+        </methods>
+      </class> <!-- org.testscript.announcementsender.CreateVerifyAndDeleteAnnouncement -->
+      <class name="org.testscript.creator.ResourceCreation">
+        <methods>
+          <include name="resourceCreation"/>
+        </methods>
+      </class> <!-- org.testscript.creator.ResourceCreation -->
+      <class name="org.testscript.creator.DeletePublishedLessonPlanFromAllMyContent">
+        <methods>
+          <include name="deletePublishedLessonPlanFromAllMyContent"/>
+        </methods>
+      </class> <!-- org.testscript.creator.DeletePublishedLessonPlanFromAllMyContent -->
+      <class name="org.testscript.announcementsender.ResendAnnouncementAndVerifyAsReciever">
+        <methods>
+          <include name="resendAnnouncementAndVerifyAsReciever"/>
+        </methods>
+      </class> <!-- org.testscript.announcementsender.ResendAnnouncementAndVerifyAsReciever -->
+      <class name="org.testscript.creator.EditAndVerifyTopicTree">
+        <methods>
+          <include name="editAndVerifyTopicTree"/>
+        </methods>
+      </class> <!-- org.testscript.creator.EditAndVerifyTopicTree -->
+      <class name="org.testscript.reviewer.VerifyLatestContentOnTopForReviewer">
+        <methods>
+          <include name="verifyLatestContentOnTopForReviewer"/>
+        </methods>
+      </class> <!-- org.testscript.reviewer.VerifyLatestContentOnTopForReviewer -->
+      <class name="org.testscript.creator.LimitedSharingTheContent">
+        <methods>
+          <include name="limitedSharingTheContent"/>
+        </methods>
+      </class> <!-- org.testscript.creator.LimitedSharingTheContent -->
+      <class name="org.testscript.announcementsender.NavigateToAnnouncementDashboard">
+        <methods>
+          <include name="navigateToAnnouncementDashboard"/>
+        </methods>
+      </class> <!-- org.testscript.announcementsender.NavigateToAnnouncementDashboard -->
+      <class name="org.testscript.publicuser.NavigateToGetStartedAndExploreDiksha">
+        <methods>
+          <include name="navigateToGetStartedAndExploreDiksha"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.publicuser.NavigateToGetStartedAndExploreDiksha -->
+      <class name="org.testscript.creator.AddChildNodesToLessonPlan">
+        <methods>
+          <include name="addChildNodesToLessonPlan"/>
+        </methods>
+      </class> <!-- org.testscript.creator.AddChildNodesToLessonPlan -->
+      <class name="org.testscript.mentor.CreateIOBatchByAddingMembersAndMentorsFromRootAndSubOrg">
+        <methods>
+          <include name="createIOBatchByAddingMembersAndMentorsFromRootAndSubOrg"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.CreateIOBatchByAddingMembersAndMentorsFromRootAndSubOrg -->
+      <class name="org.testscript.mentor.CreateIOBatchAndSearchTheCourseAsInvitedMember">
+        <methods>
+          <include name="createIOBatchAndSearchTheCourseAsInvitedMember"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.CreateIOBatchAndSearchTheCourseAsInvitedMember -->
+      <class name="org.testscript.publicuser.SearchInLibraryUsingFilter">
+        <methods>
+          <include name="searchInLibraryUsingFilter"/>
+        </methods>
+      </class> <!-- org.testscript.publicuser.SearchInLibraryUsingFilter -->
+      <class name="org.testscript.reviewer.VerifyFiltersCanBeAppliedInUpForReview">
+        <methods>
+          <include name="verifyFiltersCanBeAppliedInUpForReview"/>
+        </methods>
+      </class> <!-- org.testscript.reviewer.VerifyFiltersCanBeAppliedInUpForReview -->
+      <class name="org.testscript.creator.UploadWebmContent">
+        <methods>
+          <include name="uploadWebmContent"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadWebmContent -->
+      <class name="org.testscript.creator.VerifySaveAndSendLessonPlanForReview">
+        <methods>
+          <include name="verifySaveAndSendLessonPlanForReview"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifySaveAndSendLessonPlanForReview -->
+      <class name="org.testscript.creator.VerifyUploadAndDownloadContent">
+        <methods>
+          <include name="verifyUploadAndDownloadContent"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifyUploadAndDownloadContent -->
+      <class name="org.testscript.creator.CreateResourceByUploadingVideoAndActivityPlugins">
+        <methods>
+          <include name="verifyUploadingVideo_AddingActivity"/>
+          <include name="verifyAddingActivityFunctionality"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CreateResourceByUploadingVideoAndActivityPlugins -->
+      <class name="org.testscript.mentor.ConsumeOpenCourseByPublicUserAndCheckCourseStatAsMentor">
+        <methods>
+          <include name="consumeOpenCourseByPublicUserAndCheckCourseStatAsMentor"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.ConsumeOpenCourseByPublicUserAndCheckCourseStatAsMentor -->
+      <class name="org.testscript.reviewer.ReviewAndPublishReceivedContent">
+        <methods>
+          <include name="reviewAndPublishReceivedContent"/>
+        </methods>
+      </class> <!-- org.testscript.reviewer.ReviewAndPublishReceivedContent -->
+      <class name="org.testscript.creator.SavedContentUnderAllUploads">
+        <methods>
+          <include name="savedContentUnderAllUploads"/>
+        </methods>
+      </class> <!-- org.testscript.creator.SavedContentUnderAllUploads -->
+      <class name="org.testscript.creator.ToVerifyUpdatingOfUpcomingBatchForSearchedCourse">
+        <methods>
+          <include name="toVerifyUpdatingOfUpcomingBatchForSearchedCourse"/>
+        </methods>
+      </class> <!-- org.testscript.creator.ToVerifyUpdatingOfUpcomingBatchForSearchedCourse -->
+      <class name="org.testscript.mentor.ToVerifyUpdatingOfUpcomingBatchForSearchedCourse">
+        <methods>
+          <include name="toVerifyUpdatingOfUpcomingBatchForSearchedCourse"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.ToVerifyUpdatingOfUpcomingBatchForSearchedCourse -->
+      <class name="org.testscript.creator.CheckInReviewSubmission">
+        <methods>
+          <include name="checkInReviewSubmission"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CheckInReviewSubmission -->
+      <class name="org.testscript.reviewer.VerifySortByInUpForReview">
+        <methods>
+          <include name="verifySortByInUpForReview"/>
+        </methods>
+      </class> <!-- org.testscript.reviewer.VerifySortByInUpForReview -->
+      <class name="org.testscript.creator.CreateResourceWithMCQQuestionSet">
+        <methods>
+          <include name="createResourceWithMcqQuestion"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CreateResourceWithMCQQuestionSet -->
+      <class name="org.testscript.creator.UploadContentTypeEpubAndVerify">
+        <methods>
+          <include name="uploadContentTypeEpubAndVerify"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadContentTypeEpubAndVerify -->
+      <class name="org.testscript.creator.SearchParticularContentInAllMyContent">
+        <methods>
+          <include name="VerifySortFeatureOptions"/>
+        </methods>
+      </class> <!-- org.testscript.creator.SearchParticularContentInAllMyContent -->
+      <class name="org.testscript.reviewer.ContentValidationInUpForReviewSearchWithFilter">
+        <methods>
+          <include name="contentValidationInUpForReviewSearchWithFilter"/>
+        </methods>
+      </class> <!-- org.testscript.reviewer.ContentValidationInUpForReviewSearchWithFilter -->
+      <class name="org.testscript.creator.DeletePublishedCollectionFromAllMyContent">
+        <methods>
+          <include name="deletePublishedCollectionFromAllMyContent"/>
+        </methods>
+      </class> <!-- org.testscript.creator.DeletePublishedCollectionFromAllMyContent -->
+      <class name="org.testscript.mentor.SearchCourseCreateInviteOnlyBatch">
+        <methods>
+          <include name="searchCourseCreateInviteOnlyBatch"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.SearchCourseCreateInviteOnlyBatch -->
+      <class name="org.testscript.creator.VerifycopyContent">
+        <methods>
+          <include name="verifycopyContent"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifycopyContent -->
+      <class name="org.testscript.publicuser.LoginAndChangePassword">
+        <methods>
+          <include name="loginAndChangePassword"/>
+        </methods>
+      </class> <!-- org.testscript.publicuser.LoginAndChangePassword -->
+      <class name="org.testscript.creator.DeletePublishedUploadContentFromAllMyContent">
+        <methods>
+          <include name="deletePublishedUploadContentFromAllMyContent"/>
+        </methods>
+      </class> <!-- org.testscript.creator.DeletePublishedUploadContentFromAllMyContent -->
+      <class name="org.testscript.mentor.UpdateBatchAsInvitedMentor">
+        <methods>
+          <include name="updateBatchAsInvitedMentor"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.UpdateBatchAsInvitedMentor -->
+      <class name="org.testscript.creator.VerifyPublishedBucket">
+        <methods>
+          <include name="verifyPublishedBucket"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifyPublishedBucket -->
+      <class name="org.testscript.creator.VerifyBookCreator">
+        <methods>
+          <include name="verifyBookCreator"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifyBookCreator -->
+      <class name="org.testscript.creator.CreateResourcePublishAndDeleteFromLimitedPublising">
+        <methods>
+          <include name="characterVerificationInPreviewKeyboard"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CreateResourcePublishAndDeleteFromLimitedPublising -->
+      <class name="org.testscript.creator.UploadContentTypeH5pAndVerify">
+        <methods>
+          <include name="uploadH5pContentAndVerify"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadContentTypeH5pAndVerify -->
+      <class name="org.testscript.creator.SearchTheContentInUpForReview">
+        <methods>
+          <include name="searchTheContentInUpForReview"/>
+        </methods>
+      </class> <!-- org.testscript.creator.SearchTheContentInUpForReview -->
+      <class name="org.testscript.creator.CreateBookAndVerifyOnlyBooksPresent">
+        <methods>
+          <include name="createBookAndVerifyOnlyBooksPresent"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CreateBookAndVerifyOnlyBooksPresent -->
+      <class name="org.testscript.creator.ToVerifyUpdatingOfOngoingBatchForSearchedCourse">
+        <methods>
+          <include name="toVerifyUpdatingOfOngoingBatchForSearchedCourse"/>
+        </methods>
+      </class> <!-- org.testscript.creator.ToVerifyUpdatingOfOngoingBatchForSearchedCourse -->
+      <class name="org.testscript.admin.CheckForDownloadButtonAvailabilityForUserInProfile">
+        <methods>
+          <include name="checkForDownloadButtonAvailabilityForUserInProfile"/>
+        </methods>
+      </class> <!-- org.testscript.admin.CheckForDownloadButtonAvailabilityForUserInProfile -->
+      <class name="org.testscript.creator.LimitedSharedContentInLimitedSharingSection">
+        <methods>
+          <include name="workspace_LimitedPublishing"/>
+        </methods>
+      </class> <!-- org.testscript.creator.LimitedSharedContentInLimitedSharingSection -->
+      <class name="org.testscript.creator.VerifyMyActivityLinkInProfileDropdown">
+        <methods>
+          <include name="verifyMyactivityLinkInProfileDropdown"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifyMyActivityLinkInProfileDropdown -->
+      <class name="org.testscript.creator.SendForReviewContentUnderReviewSubmission">
+        <methods>
+          <include name="sendForReviewContentUnderReviewSubmission"/>
+        </methods>
+      </class> <!-- org.testscript.creator.SendForReviewContentUnderReviewSubmission -->
+      <class name="org.testscript.creator.EditContentAndSendForReview">
+        <methods>
+          <include name="editContentAndSendForReview"/>
+        </methods>
+      </class> <!-- org.testscript.creator.EditContentAndSendForReview -->
+      <class name="org.testscript.creator.UploadContentSaveAndSendForReview">
+        <methods>
+          <include name="uploadContentSaveAndSendForReview"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadContentSaveAndSendForReview -->
+      <class name="org.testscript.publicuser.ConfirmInstructionReceivedInforgotPassword">
+        <methods>
+          <include name="confirmInstructionReceivedInforgotPassword"/>
+        </methods>
+      </class> <!-- org.testscript.publicuser.ConfirmInstructionReceivedInforgotPassword -->
+      <class name="org.testscript.mentor.VerifyMembersAutoInvitatedInInviteOnlyBatch">
+        <methods>
+          <include name="verifyMembersAutoInvitatedInInviteOnlyBatch"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.VerifyMembersAutoInvitatedInInviteOnlyBatch -->
+      <class name="org.testscript.publicuser.SameUserNameIsNotAllowedWhileSignup">
+        <methods>
+          <include name="verify_SignUpFailure"/>
+        </methods>
+      </class> <!-- org.testscript.publicuser.SameUserNameIsNotAllowedWhileSignup -->
+      <class name="org.testscript.mentor.CheckForAuthenticUserInMentor">
+        <methods>
+          <include name="checkForAuthenticUserInMentor"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.CheckForAuthenticUserInMentor -->
+      <class name="org.testscript.creator.UploadYoutubeContent">
+        <methods>
+          <include name="uploadYoutubeContent"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadYoutubeContent -->
+      <class name="org.testscript.publicuser.AccessOnAllPagesAfterLogin">
+        <methods>
+          <include name="verify_PageAccessOnLogin"/>
+        </methods>
+      </class> <!-- org.testscript.publicuser.AccessOnAllPagesAfterLogin -->
+      <class name="org.testscript.publicuser.SearchUsers">
+        <methods>
+          <include name="searchUsers"/>
+        </methods>
+      </class> <!-- org.testscript.publicuser.SearchUsers -->
+      <class name="org.testscript.creator.QuestionTemplateFillInTheBlankCustom">
+        <methods>
+          <include name="questionTemplateFillInTheBlankCustom"/>
+        </methods>
+      </class> <!-- org.testscript.creator.QuestionTemplateFillInTheBlankCustom -->
+      <class name="org.testscript.creator.DeletePublishedResourcesFromAllMyContent">
+        <methods>
+          <include name="deletePublishedResourcesFromAllMyContent"/>
+        </methods>
+      </class> <!-- org.testscript.creator.DeletePublishedResourcesFromAllMyContent -->
+      <class name="org.testscript.creator.UploadHtmlContent">
+        <methods>
+          <include name="uploadHtmlContent"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadHtmlContent -->
+      <class name="org.testscript.reviewer.RejectTheContent">
+        <methods>
+          <include name="rejectTheContent"/>
+        </methods>
+      </class> <!-- org.testscript.reviewer.RejectTheContent -->
+      <class name="org.testscript.creator.DeletePublishedCourseFromAllMyContent">
+        <methods>
+          <include name="deletePublishedCourseFromAllMyContent"/>
+        </methods>
+      </class> <!-- org.testscript.creator.DeletePublishedCourseFromAllMyContent -->
+      <class name="org.testscript.creator.VerifyPropertySectionAndPreviewSlides">
+        <methods>
+          <include name="verifyPropertySectionAndPreviewSlides"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifyPropertySectionAndPreviewSlides -->
+      <class name="org.testscript.creator.UploadContentTypeHtmlAndVerify">
+        <methods>
+          <include name="uploadContentTypeHtmlAndVerify"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadContentTypeHtmlAndVerify -->
+      <class name="org.testscript.creator.UploadMp4Content">
+        <methods>
+          <include name="uploadMp4Content"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadMp4Content -->
+      <class name="org.testscript.creator.VerifyEditDetailsForLessonPlan">
+        <methods>
+          <include name="verifyEditDetailsForLessonPlan"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifyEditDetailsForLessonPlan -->
+      <class name="org.testscript.creator.VerifyTheBookAvailableForReview">
+        <methods>
+          <include name="verifyTheBookAvailableForReview"/>
+        </methods>
+      </class> <!-- org.testscript.creator.VerifyTheBookAvailableForReview -->
+      <class name="org.testscript.creator.UploadH5pContent">
+        <methods>
+          <include name="uploadH5pContent"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadH5pContent -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

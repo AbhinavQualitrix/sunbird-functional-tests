@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="org.generic.TestListener"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.testscript.regressionP2.OpenBatchCreation"/>
+      <class name="org.testscript.regressionP2.SearchTheContentInUpForReview"/>
+      <class name="org.testscript.regressionP2.CreateIOBatchWithStartDateAsCurrentDate"/>
+      <class name="org.testscript.regressionP2.CreateLessonPlanWith3Resources"/>
+      <class name="org.testscript.regressionP2.AllQuestionSetPlugins"/>
+      <class name="org.testscript.regressionP2.VerifyLatestContentOnTopForReviewer"/>
+      <class name="org.testscript.regressionP2.ToVerifyUpdatingOfOngoingBatchForSearchedCourse"/>
+      <class name="org.testscript.regressionP2.ToVerifyUpdatingOfUpcomingBatchForSearchedCourse"/>
+      <class name="org.testscript.regressionP2.AddChildNodesToLessonPlan"/>
+      <class name="org.testscript.regressionP2.TC_302"/>
+      <class name="org.testscript.regressionP2.TC_301"/>
+      <class name="org.testscript.regressionP2.LimitedSharingAndDeletingLessonPlan"/>
+      <class name="org.testscript.regressionP2.TC_304"/>
+      <class name="org.testscript.regressionP2.TC_303"/>
+      <class name="org.testscript.regressionP2.TC_306"/>
+      <class name="org.testscript.regressionP2.TC_305"/>
+      <class name="org.testscript.regressionP2.CreateIOBatchAndSearchTheCourseAsInvitedMember"/>
+      <class name="org.testscript.regressionP2.DeletePublishedLessonPlanFromAllMyContent"/>
+      <class name="org.testscript.regressionP2.VerifyCreatedInviteOnlybatch"/>
+      <class name="org.testscript.regressionP2.NavigateToWorkspaceAndSelectPreviousBatches"/>
+      <class name="org.testscript.regressionP2.VerifySaveAndSendLessonPlanForReview"/>
+      <class name="org.testscript.regressionP2.VerifyFilledDataWhileCreatingAnnouncement"/>
+      <class name="org.testscript.regressionP2.VerifyCreateAnnouncementFeature"/>
+      <class name="org.testscript.regressionP2.EditAndResendAnnouncement"/>
+      <class name="org.testscript.regressionP2.CreateIOBatchByAddingMembersAndMentorsFromRootAndSubOrg"/>
+      <class name="org.testscript.regressionP2.VerifyCreateAnnouncementPopupAndFeatures"/>
+      <class name="org.testscript.regressionP2.VerifyMembersAutoInvitatedInInviteOnlyBatch"/>
+      <class name="org.testscript.regressionP2.DeletePublishedCourseFromAllMyContent"/>
+      <class name="org.testscript.regressionP2.DeletePublishedUploadContentFromAllMyContent"/>
+      <class name="org.testscript.regressionP2.CreateIOBatchWithStartDateAsFutureDate"/>
+      <class name="org.testscript.regressionP2.SearchLessonPlanAndCopy"/>
+      <class name="org.testscript.regressionP2.VerifyEditDetailsForLessonPlan"/>
+      <class name="org.testscript.regressionP2.VerifyPublishButtonAndPublishCourse"/>
+      <class name="org.testscript.regressionP2.DeleteContentByStatusInAllMyContent"/>
+      <class name="org.testscript.regressionP2.VerifyFiltersCanBeAppliedInUpForReview"/>
+      <class name="org.testscript.regressionP2.MentorCreateCourseAndCreateOpenBatchForIt"/>
+      <class name="org.testscript.regressionP2.DeletePublishedBookFromAllMyContent"/>
+      <class name="org.testscript.regressionP2.VerifySortByInUpForReview"/>
+      <class name="org.testscript.regressionP2.TC_338"/>
+      <class name="org.testscript.regressionP2.DeletePublishedCollectionFromAllMyContent"/>
+      <class name="org.testscript.regressionP2.DeletePublishedResourcesFromAllMyContent"/>
+      <class name="org.testscript.regressionP2.TC_296"/>
+      <class name="org.testscript.regressionP2.TC_295"/>
+      <class name="org.testscript.regressionP2.EditAndResendTheExistingAnnouncement"/>
+      <class name="org.testscript.regressionP2.VerifySortByInAllMyContentForCreator"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

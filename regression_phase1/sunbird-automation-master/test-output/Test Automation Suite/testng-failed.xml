@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Automation Suite]">
+  <listeners>
+    <listener class-name="org.generic.TestListener"/>
+  </listeners>
+  <test name="Testing(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="org.testscript.creator.CreateQuestionMCQAndVerify">
+        <methods>
+          <include name="createQuestionMCQAndVerify"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CreateQuestionMCQAndVerify -->
+      <class name="org.testscript.creator.EditUploadedContent">
+        <methods>
+          <include name="editUploadedContent"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.EditUploadedContent -->
+      <class name="org.testscript.creator.UploadContentTypePdfAndVerify">
+        <methods>
+          <include name="uploadContentTypePdfAndVerify"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadContentTypePdfAndVerify -->
+      <class name="org.testscript.mentor.ConsumeOpenCourseByPublicUser">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="consumeOpenCourseByPublicUser"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.ConsumeOpenCourseByPublicUser -->
+      <class name="org.testscript.creator.DeleteTheCreatedContent">
+        <methods>
+          <include name="deleteTheCreatedContent"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.DeleteTheCreatedContent -->
+      <class name="org.testscript.creator.UploadYoutubeFile">
+        <methods>
+          <include name="library_copyContent"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadYoutubeFile -->
+      <class name="org.testscript.creator.EditBookAndVerify">
+        <methods>
+          <include name="editBookAndVerify"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.EditBookAndVerify -->
+      <class name="org.testscript.creator.CreateCourseAndVerify">
+        <methods>
+          <include name="createCourseAndVerify"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CreateCourseAndVerify -->
+      <class name="org.testscript.creator.CreatorQuestionAndVerify">
+        <methods>
+          <include name="creatorQuestionAndVerify"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CreatorQuestionAndVerify -->
+      <class name="org.testscript.creator.UploadContentWEBM">
+        <methods>
+          <include name="uploadContentWEBM"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadContentWEBM -->
+      <class name="org.testscript.creator.CreateResourceAndVerify">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="createResourceAndVerify"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CreateResourceAndVerify -->
+      <class name="org.testscript.creator.UploadContentTypeEpubAndVerify">
+        <methods>
+          <include name="uploadContentTypeEpubAndVerify"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadContentTypeEpubAndVerify -->
+      <class name="org.testscript.creator.EditResourceAndVerify">
+        <methods>
+          <include name="editResourceAndVerify"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.EditResourceAndVerify -->
+      <class name="org.testscript.creator.CreateCollectionAndVerify">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="createCollectionAndVerify"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CreateCollectionAndVerify -->
+      <class name="org.testscript.creator.UploadContentTypeHtmlAndVerify">
+        <methods>
+          <include name="uploadContentTypeHtmlAndVerify"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadContentTypeHtmlAndVerify -->
+      <class name="org.testscript.creator.UploadContentTypeMp4AndVerify">
+        <methods>
+          <include name="uploadContentTypeMp4AndVerify"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadContentTypeMp4AndVerify -->
+      <class name="org.testscript.creator.CreateQuestionMTFAndVerify">
+        <methods>
+          <include name="createQuestionMTFAndVerify"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CreateQuestionMTFAndVerify -->
+      <class name="org.testscript.publicuser.SameUserNameIsNotAllowedWhileSignup">
+        <methods>
+          <include name="generateExcelReportFromTestngresult"/>
+        </methods>
+      </class> <!-- org.testscript.publicuser.SameUserNameIsNotAllowedWhileSignup -->
+      <class name="org.testscript.creator.CreateQuestionFITBAndVerify">
+        <methods>
+          <include name="createQuestionFITBAndVerify"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CreateQuestionFITBAndVerify -->
+      <class name="org.testscript.creator.UploadContentTypeH5pAndVerify">
+        <methods>
+          <include name="uploadH5pContentAndVerify"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadContentTypeH5pAndVerify -->
+      <class name="org.testscript.creator.UploadContentYOUTUBE">
+        <methods>
+          <include name="uploadContentYOUTUBE"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.UploadContentYOUTUBE -->
+      <class name="org.testscript.creator.CreateBookAndVerify">
+        <methods>
+          <include name="createBookAndVerify"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CreateBookAndVerify -->
+      <class name="org.testscript.mentor.SearchCourseCreateInviteOnlyBatch">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+          <include name="searchCourseCreateInviteOnlyBatch"/>
+        </methods>
+      </class> <!-- org.testscript.mentor.SearchCourseCreateInviteOnlyBatch -->
+      <class name="org.testscript.creator.CreateLessonAndVerify">
+        <methods>
+          <include name="createLessonAndVerify"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscript.creator.CreateLessonAndVerify -->
+    </classes>
+  </test> <!-- Testing(failed) -->
+</suite> <!-- Failed suite [Test Automation Suite] -->

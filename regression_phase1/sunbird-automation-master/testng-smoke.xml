@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="org.generic.TestListener"></listener>
+	</listeners>
+  <test thread-count="1" name="Test">
+    <classes>
+    
+       <class name="org.testscript.creator.VerifyCreatorAndReviewerHasSameOwnershipTypeValueForCourse"/>
+        
+<!--
+       <class name="org.testscript.creator.UploadContentWEBM"/>
+        <class name="org.testscript.creator.CreateLessonAndVerify"/>
+      <class name="org.testscript.creator.CreateQuestionFITBAndVerify"/>
+      <class name="org.testscript.creator.CreateCourseAndVerify"/>
+      <class name="org.testscript.mentor.ConsumeOpenCourseByPublicUser"/>
+      <class name="org.testscript.creator.UploadContentTypeEpubAndVerify"/>
+      <class name="org.testscript.creator.UploadContentYOUTUBE"/>
+      <class name="org.testscript.creator.CreateCollectionAndVerify"/>
+      <class name="org.testscript.creator.UploadContentTypePdfAndVerify"/> 
+      <class name="org.testscript.creator.UploadContentTypeMp4AndVerify"/>
+      <class name="org.testscript.creator.CreateQuestionMTFAndVerify"/>
+      <class name="org.testscript.mentor.SearchCourseCreateInviteOnlyBatch"/>
+      <class name="org.testscript.creator.CreateBookAndVerify"/>
+      <class name="org.testscript.creator.UploadContentTypeHtmlAndVerify"/>
+      <class name="org.testscript.creator.UploadContentTypeH5pAndVerify"/>
+      <class name="org.testscript.creator.CreateResourceAndVerify"/>
+      <class name="org.testscript.creator.CreateQuestionMCQAndVerify"/> 
+    <class name="org.testscript.creator.CreatorQuestionAndVerify"/> -->
+     
+         
+
+   
+    
+     
+       
+
+     
+      <!-- <class name="org.testscript.creator.EditUploadedContent"/>
+      <class name="org.testscript.creator.EditResourceAndVerify"/>
+      <class name="org.testscript.creator.EditBookAndVerify"/>
+      <class name="org.testscript.creator.DeleteTheCreatedContent"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

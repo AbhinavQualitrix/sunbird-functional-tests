@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke-Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.generic.TestListener"/>
+  </listeners>
+  <test name="Smoke-Test(failed)">
+    <classes>
+      <class name="org.testscripts.CreateBookAndVerify">
+        <methods>
+          <include name="createBookAndVerify"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.testscripts.CreateBookAndVerify -->
+    </classes>
+  </test> <!-- Smoke-Test(failed) -->
+</suite> <!-- Failed suite [Smoke-Suite] -->

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="org.generic.TestListener"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.testscript.creator.ResourceCreation"/>
+      <class name="org.testscript.creator.VerifyPropertySectionAndPreviewSlides"/>
+      <class name="org.testscript.creator.CreateLessonPlanWith3Resources"/>
+      <class name="org.testscript.creator.UnlinkDailcode"/>
+      <class name="org.testscript.creator.BookCreation"/>
+      <class name="org.testscript.creator.DeletePublishedCollectionFromAllMyContent"/>
+      <class name="org.testscript.creator.ToVerifyUpdatingOfOngoingBatchForSearchedCourse"/>
+      <class name="org.testscript.creator.EditAndVerifyTopicTree"/>
+      <class name="org.testscript.creator.LimitedSharedContentInLimitedSharingSection"/>
+      <class name="org.testscript.creator.DeletePublishedCourseFromAllMyContent"/>
+      <class name="org.testscript.creator.UploadMp4Content"/>
+      <class name="org.testscript.creator.VerifyBookCreator"/>
+      <class name="org.testscript.creator.AllQuestionSetPlugins"/>
+      <class name="org.testscript.creator.SearchParticularContentInAllMyContent"/>
+      <class name="org.testscript.creator.UploadYoutubeContent"/>
+      <class name="org.testscript.creator.UploadContentTypeHtmlAndVerify"/>
+      <class name="org.testscript.creator.VerifyEditDetailsForLessonPlan"/>
+      <class name="org.testscript.creator.CreateCourseAndVerify"/>
+      <class name="org.testscript.creator.UploadContentTypeMp4AndVerify"/>
+      <class name="org.testscript.creator.DeleteContentByStatusInAllMyContent"/>
+      <class name="org.testscript.creator.SendTheCourseForReview"/>
+      <class name="org.testscript.creator.SearchLessonPlanAndCopy"/>
+      <class name="org.testscript.creator.SearchTheContentInUpForReview"/>
+      <class name="org.testscript.creator.LimitedSharingAndDeletingLessonPlan"/>
+      <class name="org.testscript.creator.VerifyTheBookAvailableForReview"/>
+      <class name="org.testscript.creator.VerifyThatTopicsAreDisplayedOnMetaDataForm"/>
+      <class name="org.testscript.creator.VerifyUploadAndDownloadContent"/>
+      <class name="org.testscript.creator.VerifyEditMetadataPageForCollection"/>
+      <class name="org.testscript.creator.CreateResourceWithContentsPluginsAndVerifyContentEditor"/>
+      <class name="org.testscript.creator.UploadH5pContent"/>
+      <class name="org.testscript.creator.VerifyTheClosingOfContentEditor"/>
+      <class name="org.testscript.creator.UploadContentTypeEpubAndVerify"/>
+      <class name="org.testscript.creator.UploadWebmContent"/>
+      <class name="org.testscript.creator.LimitedSharingTheContent"/>
+      <class name="org.testscript.creator.VerifyTheUploadedContent"/>
+      <class name="org.testscript.creator.UploadContentTypePdfAndVerify"/>
+      <class name="org.testscript.creator.VerifySaveContentInAllUploads"/>
+      <class name="org.testscript.creator.CreateLessonPlanAndVerify"/>
+      <class name="org.testscript.creator.UploadContentSaveAndSendForReview"/>
+      <class name="org.testscript.creator.BookCreateOptionValidation"/>
+      <class name="org.testscript.creator.SavedContentUnderAllUploads"/>
+      <class name="org.testscript.creator.DeletePublishedUploadContentFromAllMyContent"/>
+      <class name="org.testscript.creator.ToVerifyUpdatingOfUpcomingBatchForSearchedCourse"/>
+      <class name="org.testscript.creator.VerifyFeaturesOfProfileIconAndWorkspace"/>
+      <class name="org.testscript.creator.VerifyLimitedSharing"/>
+      <class name="org.testscript.creator.QuestionTemplateFillInTheBlankCustom"/>
+      <class name="org.testscript.creator.CreateResourceByAddingAudio"/>
+      <class name="org.testscript.creator.DeletePublishedResourcesFromAllMyContent"/>
+      <class name="org.testscript.creator.SendForReviewContentUnderReviewSubmission"/>
+      <class name="org.testscript.creator.VerifyEditDetailsPopupAndTopicTree"/>
+      <class name="org.testscript.creator.VerifyPublishedBucket"/>
+      <class name="org.testscript.creator.CreateResourcePublishAndDeleteFromLimitedPublising"/>
+      <class name="org.testscript.creator.DialCodeLink"/>
+      <class name="org.testscript.creator.VerifySortOption"/>
+      <class name="org.testscript.creator.UploadContentTypeH5pAndVerify"/>
+      <class name="org.testscript.creator.VerifySaveAndSendLessonPlanForReview"/>
+      <class name="org.testscript.creator.EditContentAndSendForReview"/>
+      <class name="org.testscript.creator.CollectionCreation"/>
+      <class name="org.testscript.creator.CheckInReviewSubmission"/>
+      <class name="org.testscript.creator.VerifyUserNaviagationToContentEditor"/>
+      <class name="org.testscript.creator.DeletePublishedBookFromAllMyContent"/>
+      <class name="org.testscript.creator.VerifycopyContent"/>
+      <class name="org.testscript.creator.VerifyMyActivityLinkInProfileDropdown"/>
+      <class name="org.testscript.creator.CreateResourceByUploadingVideoAndActivityPlugins"/>
+      <class name="org.testscript.creator.VerifyThatTopicsAreSelectedOnMetaDataPage"/>
+      <class name="org.testscript.creator.VerifyCreatedInviteOnlybatch"/>
+      <class name="org.testscript.creator.UploadHtmlContent"/>
+      <class name="org.testscript.creator.CreateBookAndVerify"/>
+      <class name="org.testscript.creator.CreateBookAndVerifyOnlyBooksPresent"/>
+      <class name="org.testscript.creator.AddChildNodesToLessonPlan"/>
+      <class name="org.testscript.creator.VerifyPublishedContentInPublishedBucket"/>
+      <class name="org.testscript.creator.CreatorResourceAndVerify"/>
+      <class name="org.testscript.creator.CreateResourceWithMCQQuestionSet"/>
+      <class name="org.testscript.creator.SeeTheContentBasedOnAppliedFilter"/>
+      <class name="org.testscript.creator.UploadYoutubeFile"/>
+      <class name="org.testscript.creator.CourseCreation"/>
+      <class name="org.testscript.creator.UploadEpubContent"/>
+      <class name="org.testscript.creator.VerifySortByInAllMyContentForCreator"/>
+      <class name="org.testscript.creator.DeletePublishedLessonPlanFromAllMyContent"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

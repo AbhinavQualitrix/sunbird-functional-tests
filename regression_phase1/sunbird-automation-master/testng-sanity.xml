@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="org.generic.TestListener"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+     <!-- <class name="org.testscript.creator.CreateBookAndVerify"/>
+      <class name="org.testscript.creator.CreateBookAndVerifyOnlyBooksPresent"/>
+      <class name="org.testscript.creator.EditContentAndSendForReview"/>
+      <class name="org.testscript.mentor.EnrollToCourseInOpenBatch"/>
+      <class name="org.testscript.creator.DialCodeLink"/>
+      <class name="org.testscript.creator.VerifyTheSorting"/>
+      <class name="org.testscript.creator.UnlinkDailcode"/>
+      <class name="org.testscript.reviewer.VerifyAppliedFilter"/>
+      <class name="org.testscript.creator.CreateCollectionAndVerify"/>
+      <class name="org.testscript.publicuser.LoginAndChangePassword"/>
+      <class name="org.testscript.creator.BookCreation"/>
+      <class name="org.testscript.creator.CheckInReviewSubmission"/> 
+      <class name="org.testscript.creator.CourseCreation"/>
+      <class name="org.testscript.publicuser.ConfirmInstructionReceivedInforgotPassword"/>
+      <class name="org.testscript.creator.UploadContentWEBM"/>
+      <class name="org.testscript.creator.CreateLessonAndVerify"/>
+      <class name="org.testscript.creator.ResourceCreation"/>
+      <class name="org.testscript.admin.AdminCreationAndDownloadCsv"/>
+      <class name="org.testscript.announcementsender.DeleteAnnouncement"/>
+      <class name="org.testscript.creator.VerifyPublishedBucket"/>
+      <class name="org.testscript.creator.CreateResourceAndVerify"/>
+      <class name="org.testscript.mentor.CheckAvailabilityOfCourseForInvitedMember"/>
+      <class name="org.testscript.creator.UploadContentYOUTUBE"/>
+      <class name="org.testscript.mentor.ConsumeCourseByInvitedMember"/>
+      <class name="org.testscript.mentor.NavigateToMyActivityInDropdown"/>
+      <class name="org.testscript.mentor.UpdateBatchAsInvitedMentor"/> --> 
+      
+      <class name="org.testscript.announcementsender.OpenAnnouncement"/>
+      <class name="org.testscript.mentor.CheckCourseStatAsMentor"/>
+      <class name="org.testscript.creator.UploadContentTypeEpubAndVerify"/>
+      <class name="org.testscript.reviewer.PublishTheContent"/>
+      <class name="org.testscript.creator.UploadContentTypeHtmlAndVerify"/>
+      <class name="org.testscript.creator.UploadContentTypeH5pAndVerify"/>
+      
+      <class name="org.testscript.creator.UploadContentTypeMp4AndVerify"/>
+      <class name="org.testscript.mentor.ConsumeOpenCourseByPublicUser"/>
+      <class name="org.testscript.creator.BookCreateOptionValidation"/>
+      <class name="org.testscript.mentor.CheckSuborgMentorInvitingOrgMember"/>
+      <class name="org.testscript.announcementsender.CreateVerifyAndDeleteAnnouncement"/>
+      <class name="org.testscript.announcementsender.ResendAnnouncement"/>
+      <class name="org.testscript.creator.VerifyBookCreator"/>
+      
+      
+      <class name="org.testscript.creator.SendTheCourseForReview"/>
+      <class name="org.testscript.mentor.CheckForAuthenticUserInMentor"/>
+      <class name="org.testscript.admin.NavigateToMyActivity"/>
+      <class name="org.testscript.admin.VerifyElementsInAdminDashboard"/>
+      <class name="org.testscript.creator.LessonplanCreation"/>
+      <class name="org.testscript.creator.LimitedSharingTheContent"/>
+      <class name="org.testscript.creator.VerifyTheBookAvailableForReview"/>
+      <class name="org.testscript.mentor.ConsumeOpenCourseByPublicUserAndCheckCourseStatAsMentor"/>
+      <class name="org.testscript.creator.VerifyContentInUpForReview"/>
+      <class name="org.testscript.announcementsender.NavigateToAnnouncementDashboard"/>
+      
+      <class name="org.testscript.announcementsender.CreateAnnouncementWithAttachment"/>
+      <class name="org.testscript.creator.UploadContentTypePdfAndVerify"/>
+      <class name="org.testscript.creator.CreateCourseAndVerify"/>
+      <class name="org.testscript.announcementsender.ResendAnnouncementAndVerifyAsReciever"/>
+      
+      <class name="org.testscript.creator.VerifyLimitedSharing"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
